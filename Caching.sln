@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching", "Caching\Caching.csproj", "{04CC24B5-9251-473E-A1DB-E9E176ABB42F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisTutorial", "RedisTutorial\RedisTutorial.csproj", "{B67BC71D-B09B-4C51-912C-2B583B08AF02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{04CC24B5-9251-473E-A1DB-E9E176ABB42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04CC24B5-9251-473E-A1DB-E9E176ABB42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04CC24B5-9251-473E-A1DB-E9E176ABB42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67BC71D-B09B-4C51-912C-2B583B08AF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67BC71D-B09B-4C51-912C-2B583B08AF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67BC71D-B09B-4C51-912C-2B583B08AF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67BC71D-B09B-4C51-912C-2B583B08AF02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
