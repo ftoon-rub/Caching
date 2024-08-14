@@ -1,10 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Infrastructure;
+using Application;
 using StackExchange.Redis;
 
 Console.WriteLine("Hello, World!");
 
-dMockDataService mockData = new();
+MockDataService mockData = new();
 var users = mockData.GetUsers();
 
 // Create a connection to the Redis server
