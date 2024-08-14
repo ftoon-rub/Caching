@@ -4,7 +4,7 @@ using StackExchange.Redis;
 
 Console.WriteLine("Hello, World!");
 
-MockDataService mockData = new();
+dMockDataService mockData = new();
 var users = mockData.GetUsers();
 
 // Create a connection to the Redis server

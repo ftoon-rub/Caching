@@ -1,13 +1,13 @@
 ﻿using Core;
 using Newtonsoft.Json;
 
-namespace Infrastructure
+namespace Application
 {
     public class MockDataService : IMockDataService
     {
         public List<User> GetUsers()
         {
-            string jsonFilePath = AppDomain.CurrentDomain.BaseDirectory +"MockData\\MOCK_DATA.json";
+            string jsonFilePath = AppDomain.CurrentDomain.BaseDirectory + "MockData\\MOCK_DATA.json";
             string jsonString = File.ReadAllText(jsonFilePath);
 
             List<User> users = JsonConvert.DeserializeObject<List<User>>(jsonString);
