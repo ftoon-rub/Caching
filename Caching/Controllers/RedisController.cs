@@ -7,5 +7,28 @@ namespace Caching.Controllers
     [ApiController]
     public class RedisController : ControllerBase
     {
+        [HttpGet]
+        public IActionResult GetUsersAsRedisString()
+        {
+            return Ok();
+        }
+
+        [HttpPost]
+        public IActionResult AddUserAsRedisString()
+        {
+            return Ok();
+        }
+
+        [HttpPut]
+        public IActionResult EditUserAsRedisString(int id)
+        {
+            return Ok();
+        }
+
+        [HttpDelete]
+        public IActionResult DeleteUserAsRedisString(int id)
+        {
+            return Ok();
+        }
     }
 }
